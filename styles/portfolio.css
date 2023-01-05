@@ -3,11 +3,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary {
+.text-primary{
     color: #FD6E0A;
 }
 
-.button-primary {
+.button-primary{
     height: 64px;
     background: #FD6E0A;
     border-radius: 5px;
@@ -29,40 +29,40 @@
     background-position: bottom right, left;
 }
 
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
 }
 
-.nav-title {
+.nav-title{
     font-weight: 800;
     font-size: 45px;
 }
 
-nav ul {
+nav ul{
     display: flex;
     align-items: center;
 }
 
-nav li {
+nav li{
     list-style: none;
     margin-left: 50px;
 }
 
 /* banner styles */
-.banner {
+.banner{
     margin: 0px 200px;
     display: flex;
     align-items: center;
 }
 
-.banner-title {
+.banner-title{
     font-weight: 700;
     font-size: 85px;
 }
 
-.banner-subtitle {
+.banner-subtitle{
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 20px;
@@ -71,7 +71,7 @@ nav li {
 .banner-description{
     color: #757575;
     font-size: 18px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 /* main section */
@@ -80,16 +80,42 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section styles */
-.about{
+
+.aboutme{
     margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
 }
 
 .section-title{
+    margin-bottom: 30px;
 
 }
 
 .section-description{
-
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* flexbox cheat sheet google it */
